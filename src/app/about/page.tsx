@@ -12,6 +12,36 @@ export const metadata: Metadata = {
     title: "About Us",
     description:
         "KNEXVORA was founded on a single conviction — universities deserve technology as rigorous as the education they provide.",
+    keywords: [
+        "about KNEXVORA",
+        "university ERP company",
+        "higher education technology company",
+        "institutional software team",
+    ],
+    alternates: {
+        canonical: "https://www.knexvora.com/about",
+    },
+    openGraph: {
+        title: "About Us | KNEXVORA",
+        description:
+            "KNEXVORA was founded on a single conviction — universities deserve technology as rigorous as the education they provide.",
+        url: "https://www.knexvora.com/about",
+        images: [
+            {
+                url: "/images/og-image.png",
+                width: 1200,
+                height: 630,
+                alt: "About KNEXVORA",
+            },
+        ],
+    },
+    twitter: {
+        card: "summary_large_image",
+        title: "About Us | KNEXVORA",
+        description:
+            "KNEXVORA was founded on a single conviction — universities deserve technology as rigorous as the education they provide.",
+        images: ["/images/og-image.png"],
+    },
 };
 
 export default function AboutPage() {
