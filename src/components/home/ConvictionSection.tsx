@@ -6,7 +6,7 @@ export default function ConvictionSection() {
                 <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.15),transparent_60%)]" />
             </div>
 
-            <div className="relative z-10 max-w-4xl mx-auto px-margin-desktop text-center">
+            <div className="relative z-10 max-w-4xl mx-auto px-margin-mobile md:px-margin-desktop text-center">
                 {/* Label */}
                 <div className="inline-flex items-center gap-2 mb-10 opacity-60">
                     <div className="w-12 h-[1px] bg-white" />

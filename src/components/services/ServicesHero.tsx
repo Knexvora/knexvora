@@ -2,7 +2,7 @@ import AnimatedSection from "@/components/ui/AnimatedSection";
 
 export default function ServicesHero() {
     return (
-        <section className="relative pt-24 pb-stack-lg px-margin-desktop max-w-container-max mx-auto">
+        <section className="relative pt-24 pb-stack-lg px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
             <AnimatedSection className="max-w-4xl">
                 <span className="font-label-caps text-label-caps text-primary tracking-widest uppercase mb-4 block">
                     Platform Services

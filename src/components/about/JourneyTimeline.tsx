@@ -3,7 +3,7 @@ import { TIMELINE } from "@/lib/constants";
 
 export default function JourneyTimeline() {
     return (
-        <section className="py-section-gap px-margin-desktop max-w-container-max mx-auto overflow-hidden">
+        <section className="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto overflow-hidden">
             <AnimatedSection className="text-center">
                 <span className="font-label-caps text-label-caps text-utility-gray uppercase tracking-widest mb-stack-md block">
                     — Our Journey

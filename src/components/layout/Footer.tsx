@@ -9,7 +9,7 @@ import {
 export default function Footer() {
   return (
     <footer className="bg-primary text-on-primary">
-      <div className="max-w-container-max mx-auto px-margin-desktop pt-20 pb-0">
+      <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pt-20 pb-0">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-stack-lg pb-16">
 
           {/* Brand */}

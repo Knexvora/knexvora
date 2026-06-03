@@ -3,7 +3,7 @@ import { OFFICE_LOCATIONS } from "@/lib/constants";
 
 export default function OfficeLocations() {
     return (
-        <section className="max-w-container-max mx-auto px-margin-desktop py-section-gap">
+        <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-section-gap">
             <AnimatedSection>
                 <div className="flex justify-between items-end mb-stack-lg">
                     <h2 className="font-display-lg text-display-lg text-primary">

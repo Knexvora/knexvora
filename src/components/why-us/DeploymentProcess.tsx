@@ -3,7 +3,7 @@ import { DEPLOYMENT_STEPS } from "@/lib/constants";
 
 export default function DeploymentProcess() {
     return (
-        <section className="max-w-container-max mx-auto px-margin-desktop py-section-gap">
+        <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-section-gap">
             <AnimatedSection className="mb-16">
                 <h2 className="font-headline-md text-headline-md text-primary mb-2">
                     How we get you live

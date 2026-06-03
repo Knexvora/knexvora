@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function DeploymentSection() {
     return (
-        <section className="bg-primary text-on-primary py-section-gap px-margin-desktop relative overflow-hidden mt-section-gap">
+        <section className="bg-primary text-on-primary py-section-gap px-margin-mobile md:px-margin-desktop relative overflow-hidden mt-section-gap">
             <div className="max-w-container-max mx-auto grid md:grid-cols-2 gap-16 items-center relative z-10">
 
                 {/* Left — Text */}

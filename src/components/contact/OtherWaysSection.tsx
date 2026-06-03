@@ -35,7 +35,7 @@ export default function OtherWaysSection() {
         <>
             {/* Other Ways Section — Navy */}
             <section className="bg-primary py-section-gap overflow-hidden">
-                <div className="max-w-container-max mx-auto px-margin-desktop">
+                <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
                     <h2
                         style={{
                             fontFamily: "'Source Serif 4', serif",
@@ -136,7 +136,7 @@ export default function OtherWaysSection() {
 
             {/* WHITE BREAK — separates navy OtherWaysSection from navy Footer */}
             <div className="bg-white py-12">
-                <div className="max-w-container-max mx-auto px-margin-desktop">
+                <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
                     <div className="border-t border-outline-variant/30 w-full" />
                 </div>
             </div>

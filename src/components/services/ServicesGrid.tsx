@@ -14,7 +14,7 @@ export default function ServicesGrid() {
     });
 
     return (
-        <section className="px-margin-desktop max-w-container-max mx-auto py-12">
+        <section className="px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto py-12">
             <ServicesFilterBar active={activeFilter} onChange={setActiveFilter} />
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
                 {filtered.map((service, i) => (

@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 export default function HeroSection() {
     return (
         <section className="hero-pattern text-on-primary relative overflow-hidden min-h-screen flex flex-col items-center justify-center py-24">
-            <div className="max-w-container-max mx-auto px-margin-desktop w-full flex flex-col items-center">
+            <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full flex flex-col items-center">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -109,10 +109,11 @@ export default function HeroSection() {
                         </Link>
                     </div>
 
-                    {/* Stats Row */}
-                    <div className="flex items-start justify-center gap-0">
+                    {/* Stats Row — stacks vertically on mobile, horizontal on sm+ */}
+                    <div className="flex flex-col sm:flex-row items-center justify-center w-full">
+
                         {/* Stat 1 */}
-                        <div className="px-12 text-left">
+                        <div className="px-6 sm:px-8 md:px-12 py-4 sm:py-0 text-center sm:text-left">
                             <div
                                 className="mb-1"
                                 style={{
@@ -125,7 +126,7 @@ export default function HeroSection() {
                                 Higher Ed
                             </div>
                             <div
-                                className="uppercase opacity-60 tracking-widest"
+                                className="uppercase opacity-60"
                                 style={{
                                     fontFamily: "'Hanken Grotesk', sans-serif",
                                     fontSize: "10px",
@@ -137,11 +138,11 @@ export default function HeroSection() {
                             </div>
                         </div>
 
-                        {/* Divider */}
-                        <div className="w-[1px] h-12 bg-white/20 self-stretch" />
+                        {/* Divider: horizontal on mobile, vertical on sm+ */}
+                        <div className="h-[1px] w-10 sm:h-12 sm:w-[1px] bg-white/20" />
 
                         {/* Stat 2 */}
-                        <div className="px-12 text-left">
+                        <div className="px-6 sm:px-8 md:px-12 py-4 sm:py-0 text-center sm:text-left">
                             <div
                                 className="mb-1"
                                 style={{
@@ -154,7 +155,7 @@ export default function HeroSection() {
                                 End-to-End
                             </div>
                             <div
-                                className="uppercase opacity-60 tracking-widest"
+                                className="uppercase opacity-60"
                                 style={{
                                     fontFamily: "'Hanken Grotesk', sans-serif",
                                     fontSize: "10px",
@@ -166,11 +167,11 @@ export default function HeroSection() {
                             </div>
                         </div>
 
-                        {/* Divider */}
-                        <div className="w-[1px] h-12 bg-white/20 self-stretch" />
+                        {/* Divider: horizontal on mobile, vertical on sm+ */}
+                        <div className="h-[1px] w-10 sm:h-12 sm:w-[1px] bg-white/20" />
 
                         {/* Stat 3 */}
-                        <div className="px-12 text-left">
+                        <div className="px-6 sm:px-8 md:px-12 py-4 sm:py-0 text-center sm:text-left">
                             <div
                                 className="mb-1"
                                 style={{
@@ -183,7 +184,7 @@ export default function HeroSection() {
                                 90 Days
                             </div>
                             <div
-                                className="uppercase opacity-60 tracking-widest"
+                                className="uppercase opacity-60"
                                 style={{
                                     fontFamily: "'Hanken Grotesk', sans-serif",
                                     fontSize: "10px",
@@ -194,6 +195,7 @@ export default function HeroSection() {
                                 Avg. Deploy
                             </div>
                         </div>
+
                     </div>
                 </motion.div>
             </div>

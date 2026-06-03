@@ -4,7 +4,7 @@ import SectionLabel from "@/components/ui/SectionLabel";
 
 export default function LeadershipSection() {
     return (
-        <section className="py-section-gap px-margin-desktop bg-surface-ice">
+        <section className="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-ice">
             <div className="max-w-container-max mx-auto">
                 <AnimatedSection className="text-center mb-section-gap">
                     <SectionLabel centered>Leadership</SectionLabel>

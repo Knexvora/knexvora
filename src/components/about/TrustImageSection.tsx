@@ -25,7 +25,7 @@ export default function TrustImageSection() {
             />
 
             {/* Content */}
-            <div className="relative z-10 text-center text-on-primary px-margin-desktop max-w-4xl mx-auto">
+            <div className="relative z-10 text-center text-on-primary px-margin-mobile md:px-margin-desktop max-w-4xl mx-auto">
                 <div className="inline-flex items-center gap-3 mb-8 opacity-60">
                     <div className="w-12 h-[1px] bg-white" />
                     <span

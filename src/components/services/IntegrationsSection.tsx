@@ -3,7 +3,7 @@ import { INTEGRATIONS } from "@/lib/constants";
 
 export default function IntegrationsSection() {
     return (
-        <section className="py-section-gap px-margin-desktop max-w-container-max mx-auto">
+        <section className="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
             <AnimatedSection className="text-center mb-16">
                 <span className="font-label-caps text-label-caps text-utility-gray uppercase tracking-widest mb-2 block">
                     Platform Integrations

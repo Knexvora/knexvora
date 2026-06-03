@@ -11,7 +11,7 @@ export default function WhyWeBuiltThis() {
                 }}
             />
 
-            <div className="max-w-container-max mx-auto px-margin-desktop relative z-10">
+            <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
                 {/* Top label */}
                 <div className="inline-flex items-center gap-3 mb-16 opacity-60">
                     <div className="w-12 h-[1px] bg-white" />

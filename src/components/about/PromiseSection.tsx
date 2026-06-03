@@ -29,12 +29,12 @@ export default function PromiseSection() {
     return (
         <>
             {/* WHITE TOP BREAK — separates ValuesDeep white from PromiseSection navy */}
-            <div className="bg-white py-12 px-margin-desktop max-w-container-max mx-auto">
+            <div className="bg-white py-12 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
                 <div className="border-t border-outline-variant/30 w-full" />
             </div>
 
             <section className="bg-primary text-on-primary py-section-gap">
-                <div className="max-w-container-max mx-auto px-margin-desktop">
+                <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start">
                         {/* Left — heading sticky */}
                         <div className="lg:sticky lg:top-32">
@@ -125,7 +125,7 @@ export default function PromiseSection() {
             </section>
 
             {/* WHITE BOTTOM BREAK — separates PromiseSection navy from AboutCTA navy */}
-            <div className="bg-white py-12 px-margin-desktop max-w-container-max mx-auto">
+            <div className="bg-white py-12 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
                 <div className="border-t border-outline-variant/30 w-full" />
             </div>
         </>

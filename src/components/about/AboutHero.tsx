@@ -2,7 +2,7 @@ import AnimatedSection from "@/components/ui/AnimatedSection";
 
 export default function AboutHero() {
     return (
-        <section className="py-section-gap px-margin-desktop max-w-container-max mx-auto">
+        <section className="py-section-gap px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
             <AnimatedSection className="max-w-3xl">
                 <span className="font-label-caps text-label-caps text-utility-gray uppercase tracking-widest mb-stack-sm block">
                     — About Us

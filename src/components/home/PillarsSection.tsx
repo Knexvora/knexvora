@@ -34,7 +34,7 @@ const PILLARS = [
 export default function PillarsSection() {
     return (
         <section className="py-section-gap bg-surface-ice">
-            <div className="max-w-container-max mx-auto px-margin-desktop">
+            <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
                 {/* Heading */}
                 <div className="text-center mb-20">
                     <div className="inline-flex items-center gap-2 mb-6">

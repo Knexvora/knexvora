@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function HomeCTASection() {
     return (
         <section className="py-section-gap bg-white">
-            <div className="max-w-container-max mx-auto px-margin-desktop">
+            <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
                     {/* Left text */}
                     <div>

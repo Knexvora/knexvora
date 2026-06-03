@@ -2,7 +2,7 @@ import AnimatedSection from "@/components/ui/AnimatedSection";
 
 export default function WhyUsHero() {
     return (
-        <section className="max-w-container-max mx-auto px-margin-desktop pt-section-gap pb-24">
+        <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pt-section-gap pb-24">
             <AnimatedSection className="max-w-3xl">
                 <span className="font-label-caps text-label-caps text-primary/60 uppercase block mb-stack-sm">
                     Why KNEXVORA

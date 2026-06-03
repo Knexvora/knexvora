@@ -2,7 +2,7 @@ import AnimatedSection from "@/components/ui/AnimatedSection";
 
 export default function ContactHero() {
     return (
-        <section className="max-w-container-max mx-auto px-margin-desktop py-stack-lg mt-12">
+        <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-stack-lg mt-12">
             <AnimatedSection className="max-w-3xl">
                 <span className="font-label-caps text-label-caps text-secondary tracking-[0.2em] uppercase block mb-stack-sm">
                     Get in touch

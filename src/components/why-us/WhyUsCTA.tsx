@@ -5,7 +5,7 @@ export default function WhyUsCTA() {
         <>
             {/* CTA Section — Navy */}
             <section className="bg-primary text-on-primary py-24">
-                <div className="max-w-container-max mx-auto px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-12">
+                <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-12">
                     <div className="max-w-2xl text-center md:text-left">
                         <h2
                             style={{
@@ -44,7 +44,7 @@ export default function WhyUsCTA() {
 
             {/* WHITE BREAK — separates navy CTA from navy Footer */}
             <div className="bg-white py-12">
-                <div className="max-w-container-max mx-auto px-margin-desktop">
+                <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
                     <div className="border-t border-outline-variant/30 w-full" />
                 </div>
             </div>

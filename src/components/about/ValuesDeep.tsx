@@ -31,7 +31,7 @@ const VALUES = [
 export default function ValuesDeep() {
     return (
         <section className="py-section-gap bg-white">
-            <div className="max-w-container-max mx-auto px-margin-desktop">
+            <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
                 {/* Header */}
                 <div className="mb-20">
                     <div className="inline-flex items-center gap-2 mb-6">

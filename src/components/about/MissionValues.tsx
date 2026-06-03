@@ -143,7 +143,7 @@ export default function MissionValues() {
             </section>
 
             {/* WHITE BREAK STRIP — separates navy MissionValues from navy WhyWeBuiltThis */}
-            <div className="bg-white py-16 px-margin-desktop max-w-container-max mx-auto">
+            <div className="bg-white py-16 px-margin-mobile md:px-margin-desktop max-w-container-max mx-auto">
                 <div className="border-t border-outline-variant/30 w-full" />
             </div>
         </div>

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function AboutCTA() {
     return (
-        <section className="bg-white py-section-gap px-margin-desktop">
+        <section className="bg-white py-section-gap px-margin-mobile md:px-margin-desktop">
             <div className="max-w-container-max mx-auto">
                 {/* Navy card */}
                 <div className="bg-primary text-on-primary px-16 py-20 text-center rounded-xl">

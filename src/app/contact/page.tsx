@@ -62,7 +62,7 @@ export default function ContactPage() {
         <>
             <JsonLd data={localBusinessSchema} />
             <ContactHero />
-            <section className="max-w-container-max mx-auto px-margin-desktop mb-section-gap">
+            <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop mb-section-gap">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-stack-lg">
                     <ContactInfo />
                     <ContactForm />

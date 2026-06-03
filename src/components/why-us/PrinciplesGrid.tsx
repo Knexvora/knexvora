@@ -3,7 +3,7 @@ import { PRINCIPLES } from "@/lib/constants";
 
 export default function PrinciplesGrid() {
     return (
-        <section className="max-w-container-max mx-auto px-margin-desktop pb-section-gap">
+        <section className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop pb-section-gap">
             <AnimatedSection className="mb-12">
                 <h2 className="font-headline-md text-headline-md text-primary mb-2">
                     What makes us different
