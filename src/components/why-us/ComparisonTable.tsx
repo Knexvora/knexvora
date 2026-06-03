@@ -122,7 +122,7 @@ export default function ComparisonTable() {
 
                         {/* Body */}
                         <tbody>
-                            {rows.map((row, i) => (
+                            {rows.map((row) => (
                                 <tr
                                     key={row.criteria}
                                     className="border-t border-outline-variant/20 hover:bg-primary group transition-colors duration-300"
