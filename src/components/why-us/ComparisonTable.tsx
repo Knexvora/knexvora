@@ -34,7 +34,7 @@ export default function ComparisonTable() {
 
     return (
         <section className="bg-surface-ice py-section-gap">
-            <div className="max-w-container-max mx-auto px-margin-desktop">
+            <div className="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
 
                 {/* Heading */}
                 <div className="text-center mb-16">
@@ -56,11 +56,10 @@ export default function ComparisonTable() {
                     <h2
                         style={{
                             fontFamily: "'Source Serif 4', serif",
-                            fontSize: "32px",
                             lineHeight: "40px",
                             fontWeight: "600",
                         }}
-                        className="text-primary"
+                        className="text-primary text-[24px] md:text-[32px]"
                     >
                         How we compare
                     </h2>
@@ -74,7 +73,7 @@ export default function ComparisonTable() {
                         <thead>
                             <tr className="bg-primary">
                                 <th
-                                    className="py-6 px-8 text-white/60"
+                                    className="py-3 px-3 md:py-6 md:px-8 text-white/60"
                                     style={{
                                         fontFamily: "'Hanken Grotesk', sans-serif",
                                         fontSize: "11px",
@@ -85,7 +84,7 @@ export default function ComparisonTable() {
                                     CRITERIA
                                 </th>
                                 <th
-                                    className="py-6 px-8 text-white border-l border-white/10"
+                                    className="py-3 px-3 md:py-6 md:px-8 text-white border-l border-white/10"
                                     style={{
                                         fontFamily: "'Hanken Grotesk', sans-serif",
                                         fontSize: "11px",
@@ -96,7 +95,7 @@ export default function ComparisonTable() {
                                     KNEXVORA
                                 </th>
                                 <th
-                                    className="py-6 px-8 text-white/60 border-l border-white/10"
+                                    className="py-3 px-3 md:py-6 md:px-8 text-white/60 border-l border-white/10"
                                     style={{
                                         fontFamily: "'Hanken Grotesk', sans-serif",
                                         fontSize: "11px",
@@ -107,7 +106,7 @@ export default function ComparisonTable() {
                                     GENERIC ERP
                                 </th>
                                 <th
-                                    className="py-6 px-8 text-white/60 border-l border-white/10"
+                                    className="py-3 px-3 md:py-6 md:px-8 text-white/60 border-l border-white/10"
                                     style={{
                                         fontFamily: "'Hanken Grotesk', sans-serif",
                                         fontSize: "11px",
@@ -115,7 +114,7 @@ export default function ComparisonTable() {
                                         letterSpacing: "0.12em",
                                     }}
                                 >
-                                    LEGACY HE SYSTEM
+                                    LEGACY HE
                                 </th>
                             </tr>
                         </thead>
@@ -129,10 +128,10 @@ export default function ComparisonTable() {
                                 >
                                     {/* Criteria */}
                                     <td
-                                        className="py-6 px-8 text-on-surface-variant group-hover:text-white/70 transition-colors duration-300"
+                                        className="py-3 px-3 md:py-6 md:px-8 text-on-surface-variant group-hover:text-white/70 transition-colors duration-300"
                                         style={{
                                             fontFamily: "'Hanken Grotesk', sans-serif",
-                                            fontSize: "15px",
+                                            fontSize: "14px",
                                             fontWeight: "500",
                                         }}
                                     >
@@ -140,12 +139,12 @@ export default function ComparisonTable() {
                                     </td>
 
                                     {/* KNEXVORA column */}
-                                    <td className="py-6 px-8 border-l border-outline-variant/20 group-hover:border-white/10 transition-colors duration-300">
-                                        <div className="flex items-center gap-2">
-                                            <span className="w-5 h-5 rounded-full bg-primary/10 group-hover:bg-white/20 flex items-center justify-center shrink-0 transition-colors duration-300">
+                                    <td className="py-3 px-3 md:py-6 md:px-8 border-l border-outline-variant/20 group-hover:border-white/10 transition-colors duration-300">
+                                        <div className="flex items-center gap-1.5">
+                                            <span className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-primary/10 group-hover:bg-white/20 flex items-center justify-center shrink-0 transition-colors duration-300">
                                                 <span
                                                     className="material-symbols-outlined text-primary group-hover:text-white transition-colors duration-300"
-                                                    style={{ fontSize: "14px" }}
+                                                    style={{ fontSize: "12px" }}
                                                 >
                                                     check
                                                 </span>
@@ -154,7 +153,7 @@ export default function ComparisonTable() {
                                                 className="text-primary font-bold group-hover:text-white transition-colors duration-300"
                                                 style={{
                                                     fontFamily: "'Hanken Grotesk', sans-serif",
-                                                    fontSize: "15px",
+                                                    fontSize: "13px",
                                                 }}
                                             >
                                                 {row.knexvora.text}
@@ -163,12 +162,12 @@ export default function ComparisonTable() {
                                     </td>
 
                                     {/* Generic ERP column */}
-                                    <td className="py-6 px-8 border-l border-outline-variant/20 group-hover:border-white/10 transition-colors duration-300">
-                                        <div className="flex items-center gap-2">
-                                            <span className="w-5 h-5 rounded-full bg-outline-variant/20 group-hover:bg-white/10 flex items-center justify-center shrink-0 transition-colors duration-300">
+                                    <td className="py-3 px-3 md:py-6 md:px-8 border-l border-outline-variant/20 group-hover:border-white/10 transition-colors duration-300">
+                                        <div className="flex items-center gap-1.5">
+                                            <span className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-outline-variant/20 group-hover:bg-white/10 flex items-center justify-center shrink-0 transition-colors duration-300">
                                                 <span
                                                     className="material-symbols-outlined text-outline group-hover:text-white/40 transition-colors duration-300"
-                                                    style={{ fontSize: "14px" }}
+                                                    style={{ fontSize: "12px" }}
                                                 >
                                                     close
                                                 </span>
@@ -177,7 +176,7 @@ export default function ComparisonTable() {
                                                 className="text-utility-gray group-hover:text-white/50 transition-colors duration-300"
                                                 style={{
                                                     fontFamily: "'Hanken Grotesk', sans-serif",
-                                                    fontSize: "15px",
+                                                    fontSize: "13px",
                                                 }}
                                             >
                                                 {row.genericERP.text}
@@ -186,12 +185,12 @@ export default function ComparisonTable() {
                                     </td>
 
                                     {/* Legacy HE column */}
-                                    <td className="py-6 px-8 border-l border-outline-variant/20 group-hover:border-white/10 transition-colors duration-300">
-                                        <div className="flex items-center gap-2">
-                                            <span className="w-5 h-5 rounded-full bg-outline-variant/20 group-hover:bg-white/10 flex items-center justify-center shrink-0 transition-colors duration-300">
+                                    <td className="py-3 px-3 md:py-6 md:px-8 border-l border-outline-variant/20 group-hover:border-white/10 transition-colors duration-300">
+                                        <div className="flex items-center gap-1.5">
+                                            <span className="w-4 h-4 md:w-5 md:h-5 rounded-full bg-outline-variant/20 group-hover:bg-white/10 flex items-center justify-center shrink-0 transition-colors duration-300">
                                                 <span
                                                     className="material-symbols-outlined text-outline group-hover:text-white/40 transition-colors duration-300"
-                                                    style={{ fontSize: "14px" }}
+                                                    style={{ fontSize: "12px" }}
                                                 >
                                                     remove
                                                 </span>
@@ -200,7 +199,7 @@ export default function ComparisonTable() {
                                                 className="text-utility-gray group-hover:text-white/50 transition-colors duration-300"
                                                 style={{
                                                     fontFamily: "'Hanken Grotesk', sans-serif",
-                                                    fontSize: "15px",
+                                                    fontSize: "13px",
                                                 }}
                                             >
                                                 {row.legacyHE.text}

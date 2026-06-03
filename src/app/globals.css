@@ -35,7 +35,7 @@
   }
 
   .section-container {
-    @apply max-w-container-max mx-auto px-margin-desktop;
+    @apply max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop;
   }
 
   .nav-link {
